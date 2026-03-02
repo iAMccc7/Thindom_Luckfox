@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.log
+logs/
+temp_data/
+.env
+test.py

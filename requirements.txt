@@ -1,0 +1,39 @@
+# 文字转语音相关
+websockets>=11.0.0
+
+# 图像处理相关
+pillow>=9.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# YOLO 目标检测相关
+ultralytics>=8.0.0
+# 注意：ultralytics 会自动安装 torch 作为依赖
+# 如需 CPU 版本：pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# 如需 GPU 版本：请参考 PyTorch 官方文档
+
+# 语音识别相关
+dashscope>=1.10.0
+requests>=2.25.0
+
+# 音频处理相关
+pyaudio>=0.2.11
+# 注意：MPV播放器需要通过系统包管理器安装
+# sudo apt update && sudo apt install -y mpv
+# 注意：sox需要通过系统包管理器安装
+# sudo apt update && sudo apt install -y sox
+
+# 硬件驱动相关
+# 注意：以下依赖优先通过系统包管理器安装（推荐）
+# sudo apt update && sudo apt install -y python3-spidev python3-rpi.gpio
+# 如果系统包管理器不可用，可以使用 pip 安装（备选方案）:
+spidev>=3.5
+RPi.GPIO>=0.7.1
+lgpio>=0.2.0.0
+
+# MQTT 相关
+paho-mqtt>=1.6.1
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
